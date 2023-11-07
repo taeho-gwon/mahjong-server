@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mahjong-server"
+version = "0.1.0"
+description = ""
+authors = ["Taeho Gwon <taehogwon96@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mahjong-server"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pymahjongutil = "^0.1.0"
+fastapi = "^0.104.1"
+uvicorn = "^0.24.0.post1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
